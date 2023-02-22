@@ -1,0 +1,36 @@
+.flexbox-container{
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+    background-color: rgb(1, 0, 59);
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: all 1s ease;
+
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.flexbox-item{
+    width: 320px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(31, 66, 39);
+    margin: 20px;
+    flex:1 1 250px;
+    max-width: 600px;
+    align-self: flex-start;
+
+}
+.flexbox-item-1{
+    min-height: 100px;
+}
+.flexbox-item-2{
+    min-height: 250px;
+}
+.flexbox-item-3{
+    min-height: 500px;
+}
+.flexbox-item-4{
+    min-height: 700px;
+}
